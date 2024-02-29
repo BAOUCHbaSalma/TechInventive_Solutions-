@@ -1,4 +1,61 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Section1{
+    background:url("img.jpg") no-repeat top right/cover;
+    width: 100%;
+    height: 300px;
+    padding-top: 150px;
+}
+.div1{
+    text-align: center;
+    color: white;
+
+}
+.Section1 p{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 33px;
+    font-family:"Khula", sans-serif;
+
+}
+
+
+.div1 button{
+    background-color: #288CE8;
+    color: white;
+
+    padding: 7px 25px;
+    margin-left: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #288CE8;
+    transition: 0.5s;
+
+
+}
+.div1 button:hover{
+    border: 2px solid #074783;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+
+}
+
+
+.div1 input{
+    padding: 7px 100px 7px 7px;
+    border-radius: 3px;
+    border: none;
+    color: #8C8383;
+    
+
+}
 header{
     display: flex;
     align-items: center;
@@ -30,4 +87,54 @@ header button:hover{
         font-weight: bolder;
     
    
+}
+
+.Section2{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;    
+}
+.Section2 div{
+    text-align: center;
+    
+    
+}
+.Section2 div h2{
+    padding-bottom: 20px;
+}
+.Section2 div p{
+    width: 300px;
+    font-size: smaller;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8C8383;
+    
+}
+.Logo{
+    display: flex;
+   height: 20px;
+   justify-content: space-evenly;
+   margin-top: 100px;
+   padding: 45px;
+   border-top: 1px solid;
+
+
+}
+.texte{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.cright{
+    margin-top: 30px;
+    background-color: #051641;
+    color:white;
+    padding: 13px;
+   text-align: center;
+  
+  
+    
 }
