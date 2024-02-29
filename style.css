@@ -1,0 +1,33 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+header h3{
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header button{
+    margin-right: 60px;
+    color: white;
+    background-color: #288CE8;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #288CE8;
+    transition: 0.5s;
+
+}
+
+header button:hover{
+    
+        border: 2px solid #074783;
+        background-color: transparent;
+        color: #074783;
+        font-weight: bolder;
+    
+   
+}
